@@ -13,7 +13,7 @@ on:
       name: My First Pipeline
       # Run on Ubuntu using the lastest version
       runs-on: ubuntu-latest
-      # job's steps
+      # Job's steps
       steps: 
         # Check-out your repository
           - uses: actions/checkout@v3
