@@ -1,7 +1,7 @@
 name: CI Pipeline (DOC1)
 
 on: 
-  #Manually trigger worklow runs f
+  #Manually trigger worklow runs fd
   workflow_dispatch:
   #Trigger the worflow on push from the master/main branch
   push:
