@@ -7,15 +7,15 @@ on:
   push:
     branches: [ master ]
 
-  jobs:
-    #Build job
-    build:
-      name: My First Pipeline
-      # Run on Ubuntu using the lastest version
-      runs-on: ubuntu-latest
-      # Job's steps
-      steps: 
-        # Check-out your repository
-          - uses: actions/checkout@v3
-          - name: Run a one-line script
-            run: echo "Continous Integration"
+jobs:
+  #Build job
+  build:
+    name: My First Pipeline
+    # Run on Ubuntu using the lastest version
+    runs-on: ubuntu-latest
+    # Job's steps
+    steps: 
+      # Check-out your repository
+      - uses: actions/checkout@v3
+      - name: Run a one-line script
+        run: echo "Continous Integration"
